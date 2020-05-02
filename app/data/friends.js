@@ -13,7 +13,7 @@ module.exports=[
     name:"Kermit the Frog",
     photo:"./public/assets/images/kermit.gif",
     scores:[2,3,4,5,1,1,2,5,2,3]
-}
+},
 {
     name:"Animal",
     photo:"./public/assets/images/animal.gif",

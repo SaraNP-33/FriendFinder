@@ -1,0 +1,99 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+
+body {
+    background:url("/app/public/assets/images/pink.png");
+    color: #156796;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+.jumbotron {
+    background-color: white;
+  
+    flex:1; 
+}
+.name-form{
+    background-color: white;
+    
+}
+.card{
+    margin-top: 10px;
+}
+.card-header{
+    background-color:#B0C4DE;
+    color:#191970;
+    font-size: 25px;
+}
+
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+   font-family: 'News Cycle', sans-serif;
+}
+
+a {
+    color: #156796;
+    margin-top: 0;
+}
+
+a:hover {
+    color: rgb(232, 106, 10);
+}
+
+
+
+
+
+
+#name,
+#photo {
+    margin-left: 2vw;
+}
+
+
+
+input[type="radio"]:checked + label {
+  font-weight: bold;
+    }
+
+
+
+#submitBtn {
+    background-color: #156796;
+    color: white;
+    margin-top: 10px;
+}
+
+
+
+
+
+/* Modal */
+
+.modal {
+    height: relative;
+}
+
+#match-img {
+    width: 50%;
+}
+
+.modal .btn {
+    background-color: #156796;
+    color: white;
+}
+
+.modal .btn:hover {
+    color: white;
+    font-size: 1.1rem;
+}
+
+.modal .btn:active {
+    font-size: 1rem;
+}

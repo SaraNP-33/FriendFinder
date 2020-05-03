@@ -3,7 +3,7 @@
 }
 
 body {
-    background:url("/app/public/assets/images/pink.png");
+    background:url("./public/assets/images/pink.png");
     color: #156796;
     display: flex;
     min-height: 100vh;

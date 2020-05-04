@@ -11,9 +11,9 @@ route.post("/api/friends",function(req,res){
 
     var bestMatch;
     var prevDiff=10000;
+    friends.push(req.body);
     
-    
-    for (var i = 0; i < friends.length; i++) {
+    for (var i = 0; i < friends.length -1; i++) {
         var currentScore = friends[i].scores
         var totalDifference = 0
         
@@ -32,7 +32,7 @@ route.post("/api/friends",function(req,res){
         console.log("Total Difference", totalDifference);
         
     }
-    friends.push(req.body);
+   
     console.log("Your Best Friend is",bestMatch );
     res.json(bestMatch);
 
